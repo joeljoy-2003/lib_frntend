@@ -14,7 +14,7 @@ export const getAllBooksAPI = async () => {
 };
 
 // 3️⃣ Get single book by ID
-export const getBookByIdAPI = async (id) => {
+export const getBookAPI = async (id) => {
   return await commonAPI("GET", `${BASEURL}/books/${id}`);
 };
 
